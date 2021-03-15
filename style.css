@@ -1,0 +1,124 @@
+
+/* nav start ================================ */
+
+.navbar-custom {
+  background-color: #e4ae6e;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: #61140d;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+  font-family: "starfont", Fallback, sans-serif;
+  font-size: 20px;
+  color: #61140d;
+}
+/* change the color of hovered links */
+.navbar-custom .navbar-nav .nav-item:hover .nav-link {
+  color: #fff0ba;
+}
+/*dropdown*/
+.container .dropdown .dropdown-menu {
+    color: #fff;
+    background-color: #ebd8c1;
+    border-color: #fff;
+  }
+
+  .container .dropdown .dropdown-menu .dropdown-item {
+    font-family: 'starfont', Fallback, sans-serif;
+    font-size: 20px;
+  }
+
+.container .dropdown .dropdown-menu a:hover {
+  color: #fff;
+  background-color: #e4ae6e;
+  border-color: #fff;
+}
+
+@font-face {
+  font-family: "starfont";
+  src: url(/fonts/StardewValley.eot); /* IE9 Compat Modes */
+  src: url("fonts/StardewValley.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("fonts/StardewValley.woff") format("woff"),
+    /* Modern Browsers */ url("fonts/Stardew_Valley.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("fonts/StardewValley.svg#svgFontName")
+      format("svg"); /* Legacy iOS */
+}
+
+/* ====================================== nav end */
+
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 95%;
+    margin: auto 0;
+}
+
+body{
+    margin: 0;
+    text-align:center;
+}
+
+h1 {
+    font-family: "starfont", Fallback, sans-serif;
+}
+h2 {
+    font-family: "starfont", Fallback, sans-serif;
+}
+p {
+  font-family: "starfont", Fallback, sans-serif;
+  font-size: 20px;
+  color: #61140d
+}
+
+/* index.html ======================================= */
+
+.title {
+    background-image: url(img/sandbackground.PNG);
+    background-position:right;
+    background-repeat: no-repeat;
+    background-color: #F1E192;
+    padding: 10em 0;
+}
+
+.title .container img {
+    display:inline block;
+    padding: 1em;
+}
+
+#disclaimer {
+    font-size: 15px;
+    line-height: 15px;
+    color: #c7a463;
+}
+
+.drama {
+    background-color: #DCECD4;
+    padding: 5em 0;
+}
+
+.target{
+    background-color: #BFE6F2;
+    background-image: url(img/target.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5em 0;
+}
+
+.start {
+    background-color: #BFE6F2;
+    background-image: url(img/mountains.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    padding: 20em 0;
+}
